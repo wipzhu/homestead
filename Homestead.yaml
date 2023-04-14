@@ -18,8 +18,10 @@ sites:
       to: /home/vagrant/code/public
     - map: ph-backend.risk.local
       to: /home/vagrant/code/ph-rc-php/backend/web
+      php: "8.2"
     - map: ph-frontend.risk.local
       to: /home/vagrant/code/ph-rc-php/frontend/web
+      php: "8.2"
 
 databases:
     - homestead
