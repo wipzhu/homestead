@@ -42,7 +42,7 @@ services:
 ports:
     - send: 3306 # MySQL/MariaDB
       to: 3306
-    - send: 6379
+    - send: 6379 # Redis
       to: 6379
 #    - send: 4040
 #      to: 4040
@@ -52,5 +52,5 @@ ports:
 #      to: 8025
 #    - send: 9600
 #      to: 9600
-    - send: 27017
+    - send: 27017 # Mongo
       to: 27017
