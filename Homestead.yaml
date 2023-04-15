@@ -22,6 +22,26 @@ sites:
     - map: ph-frontend.risk.local
       to: /home/vagrant/code/ph-rc-php/frontend/web
       php: "8.2"
+    # link
+    - map: td-link.local
+      to: /home/vagrant/code/link
+      php: "5.6"
+    - map: qh-link.local
+      to: /home/vagrant/code/link
+      php: "5.6"
+    - map: fd-link.local
+      to: /home/vagrant/code/fd-link
+      php: "5.6"
+    - map: bz-link.local
+      to: /home/vagrant/code/bz-link
+      php: "5.6"
+    - map: bx-link.local
+      to: /home/vagrant/code/bx-link
+      php: "5.6"
+    # 企业号
+    - map: qy.jindashi.local
+      to: /home/vagrant/code/qy/public
+      php: "7.1"
 
 databases:
     - homestead
@@ -44,6 +64,8 @@ ports:
       to: 3306
     - send: 6379 # Redis
       to: 6379
+    - send: 27017 # Mongo
+      to: 27017
 #    - send: 4040
 #      to: 4040
 #    - send: 54320 # PostgreSQL
@@ -52,5 +74,3 @@ ports:
 #      to: 8025
 #    - send: 9600
 #      to: 9600
-    - send: 27017 # Mongo
-      to: 27017
