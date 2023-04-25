@@ -16,6 +16,22 @@ folders:
 sites:
     - map: homestead.local
       to: /home/vagrant/code/public
+      php: "5.6"
+      #印尼
+    - map: backend.risk.local
+      to: /home/vagrant/code/rc_php/backend/web
+      php: "7.2"
+    - map: frontend.risk.local
+      to: /home/vagrant/code/rc_php/frontend/web
+      php: "7.2"
+      #印度
+    - map: india-backend.risk.local
+      to: /home/vagrant/code/india_rc_php/backend/web
+      php: "7.2"
+    - map: india-frontend.risk.local
+      to: /home/vagrant/code/india_rc_php/frontend/web
+      php: "7.2"
+      #菲律宾
     - map: ph-backend.risk.local
       to: /home/vagrant/code/ph-rc-php/backend/web
       php: "8.2"
