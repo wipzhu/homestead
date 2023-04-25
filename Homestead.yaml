@@ -38,26 +38,26 @@ sites:
     - map: ph-frontend.risk.local
       to: /home/vagrant/code/ph-rc-php/frontend/web
       php: "8.2"
-    # link
-    - map: td-link.local
-      to: /home/vagrant/code/link
-      php: "5.6"
-    - map: qh-link.local
-      to: /home/vagrant/code/link
-      php: "5.6"
-    - map: fd-link.local
-      to: /home/vagrant/code/fd-link
-      php: "5.6"
-    - map: bz-link.local
-      to: /home/vagrant/code/bz-link
-      php: "5.6"
-    - map: bx-link.local
-      to: /home/vagrant/code/bx-link
-      php: "5.6"
-    # 企业号
-    - map: qy.jindashi.local
-      to: /home/vagrant/code/qy/public
-      php: "7.1"
+#    # link
+#    - map: td-link.local
+#      to: /home/vagrant/code/link
+#      php: "5.6"
+#    - map: qh-link.local
+#      to: /home/vagrant/code/link
+#      php: "5.6"
+#    - map: fd-link.local
+#      to: /home/vagrant/code/fd-link
+#      php: "5.6"
+#    - map: bz-link.local
+#      to: /home/vagrant/code/bz-link
+#      php: "5.6"
+#    - map: bx-link.local
+#      to: /home/vagrant/code/bx-link
+#      php: "5.6"
+#    # 企业号
+#    - map: qy.jindashi.local
+#      to: /home/vagrant/code/qy/public
+#      php: "7.1"
 
 databases:
     - homestead
