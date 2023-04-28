@@ -14,9 +14,9 @@ folders:
       to: /home/vagrant/code
 
 sites:
-    - map: homestead.local
-      to: /home/vagrant/code/public
-      php: "5.6"
+    - map: laravel.local
+      to: /home/vagrant/code/LaravelDemo/public
+      php: "8.2"
       #印尼
     - map: backend.risk.local
       to: /home/vagrant/code/rc_php/backend/web
